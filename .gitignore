@@ -1,0 +1,5 @@
+emcLib/node_modules/
+parcelTest/node_modules/
+parcelTest/.cache/
+parcelTest/dist/
+parcelTest/.emc/

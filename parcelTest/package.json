@@ -1,0 +1,20 @@
+{
+  "name": "parceltest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/emscripten": "0.0.31",
+    "parcel-bundler": "^1.2.0",
+    "parcel-plugin-emc": "github:taktod/parcel-plugin-emc"
+  },
+  "dependencies": {
+    "emclib": "file:../emcLib",
+    "typescript": "^2.6.2"
+  }
+}

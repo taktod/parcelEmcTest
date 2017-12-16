@@ -1,0 +1,8 @@
+var source   = ["src/c/test.c"];
+// この_testFuncの方がemscriptenに登録する関数になります。
+var func     = {testFunc: "_testFunc"};
+var cflags   = [];
+var cppflags = [];
+var ldflags  = [];
+
+// requireとして渡されるのはfuncの中身になります。
